@@ -29,15 +29,13 @@
 
 .color{
     color: rgb(0, 126, 128);
-    position: static;
-    
-    
+    position: static;    
 }
 
 
 #whatsapp{
     position:fixed;
-    bottom:1vw;
-    right:1vw;
+    bottom:2vw;
+    right:2vw;
 }
 
