@@ -1,41 +1,137 @@
 
-/*llamo a una clase*/
-.titular{
-    position: sticky;
-    top: 0;
-    background-color: red;
-    border: 2px solid #0a0606
+body{background-color: white;}
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
 }
 
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 40%;
+  max-height: 200px;
+  max-width: 200px;
+ 
+}
+
+.menu{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-style:groove;
+  
+}
+
+li{
+  display: inline;
+  margin-left: 10%;
+  padding: 5px; color: green; /* color dentro de caja*/
+  align-content:center;
+  font-weight: bold;
+  color: black;
+}
+
+li a.active, li a:hover{
+  color:darkgreen ;
+  transition: .5s;
+}
+
+h2{
+  font-weight: 800;
+  color: rgb(2, 67, 2);
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 80px;
+}
+
+  
 .subtitulo{
-    color: rgb(198, 139, 29);
-    position: absolute;
-    left: 290px;
-    top: 80px;
-    margin: 50px;
+  display: flex;
+  justify-content: center;  
+  text-align: center;
+  font-size:30px;;
+  font-style: italic;
+  border: 5px solid green;
+  padding:10px; color: green;
+  margin: 50px;
 }
 
-.padding{
-    padding:40px;
-    margin: 80px;
-    border: 3px solid tomato
+.casilla{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  
+  
 }
 
-.posicion{
-    position: static;
-    margin: 30px;
-    
+
+.casilla2{
+  display: inline-block;
+  padding: 10px; 
+  border-radius: 20px; 
+  border: solid green;
 }
 
-.color{
-    color: rgb(0, 126, 128);
-    position: static;    
+.imagenes{
+  max-height: 250px;
+  max-width: 250px;
+}
+
+.nombre{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.boton {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+
+.casillatotal{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.negrita{
+  font-weight: 700;
+  font-family: monospace ;
+  font-size: large;
+}
+
+.pie{
+  background-color: green;
+  border-radius: 20px;
+  color: white;
+  height: 100px;
+
+}
+
+.txt{ 
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+justify-items: center;
+margin-left: 20px;
 }
 
 
 #whatsapp{
-    position:fixed;
-    bottom:2vw;
-    right:2vw;
+  position:fixed;
+  bottom:2vw;
+  right:2vw;
+  max-width: 70px;
+  max-height: 70px;
 }
-

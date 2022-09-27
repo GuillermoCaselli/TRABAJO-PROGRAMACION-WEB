@@ -1,62 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="./images/logo.PNG">
+    <link rel="icon" href="./Fotos/Captura.PNG">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>El Licorcito</title>
-
-    <!-- Llamo archivo externo -->
+    <title>MATEMANIA</title>
     <link rel="stylesheet" href="style.css">
-    <style>body{background-color: rgb(214, 235, 152)};</style>
-
+   
 </head>
 <body>
-    <header></header>
-    <main>
-        <!--Titulo-->
-        <h1 class="titular"> El Licorcito</h1>
-        <h2 class="subtitulo"> Encuentra todos los elementos para armar tragos</h2>
-        Buscador: <input type="text" placeholder="Escriba algo">
-        <input type="button", value ="Buscar">
+    <header>
         
-        <!--texto-->
-        <div>
-        <p class="padding"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae vero non recusandae officia molestiae porro quasi aliquid corrupti vel possimus obcaecati repudiandae dolorum iure minus voluptas dolore sint, ab magnam.</p>
-        </div>
-        <br> <!--salto-->
+    </header>
+    
+    <body>
         
-        <img class= "posicion" src="http://via.placeholder.com/350" alt="">
-        <img class="posicion" src="http://via.placeholder.com/350" alt="">
-        <img class="posicion" src="http://via.placeholder.com/350" alt="">
-        
-        <br>
-        <h3 class="color">
+        <!-- LOGO Y MENU NAVEGACION-->
+        <img id="logo" src="./Fotos/Captura.PNG">
+        <div class="menu">
             <ul>
-                <li>Martini</li>
-                <li>Cosmopolitan</li>
-                <li>Gin Tonic</li>
-                <li>Mojito</li>
+                <li><a class="active" href="#"> INICIO </a></li>
+                <li><a href="#"> MATES</a> </li>
+                <li><a href="#"> YERBAS </a></li>
+                <li> <a href="#">COMBOS </a></li>
+                <li> <a href="#">QUIENES SOMOS </a></li>
             </ul>
-        </h3>
+        </div>
         
-        <ol class="color"> 
-            <li type="circle">Cosa 1</li>
-            <li type="circle">Cosa 2</li>
-            <li type="square">Cosa 3</li>
-            <li>Cosa 4</li>
-        </ol>
+        <p1 class="subtitulo">Mate bien cebado, mata galán</p1>
         
-        <a href="https://www.youtube.com/watch?v=eV6JIzSOHvs"target="_blank"> Tecnina de Elaboracion Cockteles</a>
+        <!--Productos-->
+        <h2> Lo Destacado</h2>
+        <div class="casillatotal">
+            <div class="casilla2">
+                <div class="casilla">
+                    <img class="imagenes" src="./Fotos/IMPERIAL.jpg" alt="">
+                    <p2> Mate Imperial Cincleado + Bombilla</p2>
+                    <p3 class="negrita"> $7.500</p3>
+                    <p4 class="boton"> Agregar carrito</p4>
+                    
+                </div>
+            </div>
+            <div class="casilla2">
+                <div class="casilla">
+                    <img class="imagenes" src="./Fotos/CAMIONERO.jpg" alt="">
+                    <p2>Mate Caminonero + Bombilla</p2>
+                    <p3 class="negrita">$6.000</p3>
+                    <p4 class="boton">Agregar carrito</p4>
+                </div>
+            </div>
+            <div class="casilla2">
+                <div class="casilla">
+                    <img class="imagenes" src="./Fotos/CAMIONERO.jpg" alt="">
+                    <p2>Mate Caminonero + Bombilla</p2>
+                    <p3 class="negrita">$6.000</p3>
+                    <p4 class="boton">Agregar carrito</p4>
+                </div>
+            </div>
+        </div>
+
+        <!-- YERBEROS  -->
+        
+        <h2> Nuestros Yerberos</h2>
+        <div class="casillatotal">
             
-    
-    </main>
-    <footer>
-        <a href="https://www.whatsapp.com/?lang=es"target="_blank">
-        <img src="./images/wpp.png" id="whatsapp"alt=""></a>
+            <div class="casilla2">
+                <div class="casilla">
+                    <img class="imagenes" src="./Fotos/yerbero ferrari.jpg" alt="">
+                    <p2>Yerbero Ferrari</p2>
+                    <p3 class="negrita"> $1.000 </p3>
+                    <p4 class="boton"> Agregar carrito</p4>
+                </div>
+            </div>
+           
+            <div class="casilla2">
+                <div class="casilla">
+                    <img class="imagenes" src="./Fotos/yerbero herbie.jpg" alt="">
+                    <p2>Yerbero Herbie</p2>
+                    <p3 class="negrita"> $1.000 </p3>
+                    <p4 class="boton"> Agregar carrito</p4>
+                </div>
+            </div>
+
+            <div class="casilla2">
+                <div class="casilla">
+                    <img class="imagenes" src="./Fotos/yerbero jonny walker.jpeg" alt="">
+                    <p2>Yerbero Jonny Walker</p2>
+                    <p3 class="negrita"> $1.500 </p3>
+                    <p4 class="boton"> Agregar carrito</p4>
+                </div>
+            </div>
+
+            <div class="casilla2">
+                <div class="casilla">
+                    <img class="imagenes" src="./Fotos/yerbero harley.jpg" alt="">
+                    <p2 class="nombre">Yerbero Harley</p2>
+                    <p3 class="negrita"> $1.500 </p3>
+                    <p4 class="boton"> Agregar carrito</p4>
+                </div>
+            </div>               
+        </div>
+
+        <div>
+            <a href="https://api.whatsapp.com/send?phone=541134774520" target="blank">
+            <img id="whatsapp" src="./Fotos/whatsapp.png" alt=""></a>
+        </div>
         
+    </body>
+    <footer>
+        <div class="pie">
+            <div class="txt">
+                <p1>Datos del Contacto</p1>
+                <p2> +54 11 1122 3322 </p2>
+                <p3> ventas@matemania.com</p3>
+                <p4> Buenos Aires, Argentina</p4>
+            </div>
+        </div>
     </footer>
-    
 </body>
 </html>
