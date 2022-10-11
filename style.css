@@ -20,6 +20,10 @@ body{background-color: white;}
  
 }
 
+ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 .menu{
   position: sticky;
   top: 0;
@@ -53,6 +57,7 @@ h2{
   
 .subtitulo{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;  
   text-align: center;
   font-size:30px;;
@@ -77,6 +82,8 @@ h2{
   padding: 10px; 
   border-radius: 20px; 
   border: solid green;
+  margin-top: 10px;
+  margin-bottom: 10px;
   
   
 }
@@ -102,9 +109,10 @@ h2{
 
 .casillatotal{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
 }
 
 .negrita{
@@ -136,4 +144,27 @@ margin-left: 20px;
   right:2vw;
   max-width: 70px;
   max-height: 70px;
+}
+@media only screen and (max-width: 600px){
+  body{
+    background-color: red;
+    
+  }
+  ul
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    
+  }
+}
+@media only screen and (max-width: 768px){
+  body{
+    background-color: blue;
+  }
+  ul
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    
+  }
 }
