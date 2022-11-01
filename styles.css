@@ -1,0 +1,36 @@
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 40%;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+main{
+  padding: 20px;
+}
+
+h3{
+color: green;
+text-align: center;
+margin: 50px;
+}
+
+.imagen{
+  height: 80px;
+  width: auto;
+  
+}
+
+.separador{
+  background-color: green;
+}
+
+.texto{
+  display: flex;
+  justify-content: center;
+
+}

@@ -1,122 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="./Fotos/Captura.PNG">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MATEMANIA</title>
-    <link rel="stylesheet" href="style.css">
-   
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--logo-->
+    <link rel="icon" href="./Fotos/Captura.PNG" >
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <header>
+    
+    <!--ENCABEZADO-->
+    <header>  
         
+      <img id="logo" src="./Fotos/Captura.PNG">
+        
+      <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Yerberas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Combos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Quienes omos</a>
+                </li>
+
+               
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
     </header>
     
-    <body>
-        
-        <!-- LOGO Y MENU NAVEGACION-->
-        <img id="logo" src="./Fotos/Captura.PNG">
-        <div class="menu">
-            <ul>
-                <li><a class="active" href="#"> INICIO </a></li>
-                <li><a class="active" href="#"> MATES</a> </li>
-                <li><a class="active "href="#"> YERBAS </a></li>
-                <li><a class="active" href="#">COMBOS </a></li>
-                <li><a class="active" href="#">QUIENES SOMOS </a></li>
-            </ul>
+    <main>
+        <div class="card text-bg-dark">
+          <img src="./Fotos/Dios.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay text-center">
+            <h1 class="card-title">El QUE NO CONOCE A DIOS</h1>
+            <h2 class="card-text">a cualquier santo le ceba</h2>
+          </div>
         </div>
+    
+        <!--Fila de mates-->
         
-        <p1 class="subtitulo">Mate bien cebado, mata galán</p1>
-        
-        <!--Productos-->
-        <h2> Lo Destacado</h2>
-        <div class="casillatotal">
-            <div class="casilla2">
-                <div class="casilla">
-                    <img class="imagenes" src="./Fotos/IMPERIAL.jpg" alt="">
-                    <p2> Mate Imperial Cincleado + Bombilla</p2>
-                    <p3 class="negrita"> $7.500</p3>
-                    <p4 class="boton"> Agregar carrito</p4>
-                    
+        <h3>NUESTRA SELECCION</h3>
+        <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4  g-4">
+            <div class="col">
+              <div class="card h-100 text-center">
+                <img src="./Fotos/Imperial_Cincelado_Bronce_1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">MATE1.</p>
+                  <a href="#" class="btn btn-success">Agregar a Carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-center">
+                <img  src="./Fotos/CAMIONERO.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">MATE 2.</p>
+                    <p class="card-text">$6.000</p>
+                    <a href="#" class="btn btn-success">Agregar a Carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 text-center">
+                <img src="./Fotos/TORPEDO.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">MATE3</p>
+                    <p class="card-text">$6.000</p>
+                    <a href="#" class="btn btn-success">Agregar a Carrito</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 text-center">
+                  <img src="./Fotos/pezuña.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">MATE3</p>
+                      <p class="card-text">$6.000</p>
+                      <a href="#" class="btn btn-success">Agregar a Carrito</a>
+                  </div>
                 </div>
             </div>
-            <div class="casilla2">
-                <div class="casilla">
-                    <img class="imagenes" src="./Fotos/CAMIONERO.jpg" alt="">
-                    <p2>Mate Caminonero + Bombilla</p2>
-                    <p3 class="negrita">$6.000</p3>
-                    <p4 class="boton">Agregar carrito</p4>
-                </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button class="btn btn-outline-success" type="button">VER TODOS LOS MATES</button>
             </div>
-            <div class="casilla2">
-                <div class="casilla">
-                    <img class="imagenes" src="./Fotos/CAMIONERO.jpg" alt="">
-                    <p2>Mate Caminonero + Bombilla</p2>
-                    <p3 class="negrita">$6.000</p3>
-                    <p4 class="boton">Agregar carrito</p4>
+        </div>
+
+        <!-- Figuras -->
+        <div class="container" >
+            <h3>BENEFICIOS Y METODOS DE PAGO</h3>
+            <div class="row text-center">
+                <div class="col-4">
+                    <img class="imagen" src="./Fotos/icons8-entrega.gif" alt=".">
+                    <h4> ENVIOS A TODO EL PAIS</h4>
+                    <p> Para compras superiores a $10.000</p>
+                </div>
+
+                <div class="col-4">
+                    <img class="imagen" src="./Fotos/icons8-parte-delantera-de-tarjeta-bancaria.gif"class="img-fluid" alt=".">
+                    <h4> PAGA COMO QUIERAS</h4>
+                    <p>Efectivo, tarjetas de crédito, debito y billeteras virtuales</p>
+                </div>
+
+                <div class="col-4">
+                    <img class="imagen" src="./Fotos/icons8-garantía.gif">
+                    <h4> 100% GARANTIA</h4>
+                    <p>  A esto nos dedicamos </p>
                 </div>
             </div>
         </div>
 
-        <!-- YERBEROS  -->
-        
-        <h2> Nuestros Yerberos</h2>
-        <div class="casillatotal">
+        <!-- Texto con foto -->
+        <div class="p-4 p-md-5 mb-4 rounded text-bg-success">
+          <div class="row">
+            <div class="col-7 px-0" >
+              <h1 class="display-4 fst-italic">Crea grandes momentos</h1>
+              <p class="lead my-3" style="padding:100px"> Ritual eterno. El mate. Esencial en una reunión familiar o juntada con amigos, siempre está presente.
+                El agua, la yerba, la bombilla y hasta la forma de cebarlo puede afectar el resultado final. </p>
+            </div>
+            <div class="col-5">
+              <img src="./Fotos/VIDA.jpg" alt=""> 
+            </div>
             
-            <div class="casilla2">
-                <div class="casilla">
-                    <img class="imagenes" src="./Fotos/yerbero ferrari.jpg" alt="">
-                    <p2>Yerbero Ferrari</p2>
-                    <p3 class="negrita"> $1.000 </p3>
-                    <p4 class="boton"> Agregar carrito</p4>
-                </div>
-            </div>
-           
-            <div class="casilla2">
-                <div class="casilla">
-                    <img class="imagenes" src="./Fotos/yerbero herbie.jpg" alt="">
-                    <p2>Yerbero Herbie</p2>
-                    <p3 class="negrita"> $1.000 </p3>
-                    <p4 class="boton"> Agregar carrito</p4>
-                </div>
-            </div>
 
-            <div class="casilla2">
-                <div class="casilla">
-                    <img class="imagenes" src="./Fotos/yerbero jonny walker.jpeg" alt="">
-                    <p2>Yerbero Jonny Walker</p2>
-                    <p3 class="negrita"> $1.500 </p3>
-                    <p4 class="boton"> Agregar carrito</p4>
-                </div>
-            </div>
-
-            <div class="casilla2">
-                <div class="casilla">
-                    <img class="imagenes" src="./Fotos/yerbero harley.jpg" alt="">
-                    <p2 class="nombre">Yerbero Harley</p2>
-                    <p3 class="negrita"> $1.500 </p3>
-                    <p4 class="boton"> Agregar carrito</p4>
-                </div>
-            </div>               
-        </div>
-
-        <div>
-            <a href="https://api.whatsapp.com/send?phone=541134774520" target="blank">
-            <img id="whatsapp" src="./Fotos/whatsapp.png" alt=""></a>
+          </div>
+          
         </div>
         
-    </body>
-    <footer>
-        <div class="pie">
-            <div class="txt">
-                <p1>Datos del Contacto</p1>
-                <p2> +54 11 1122 3322 </p2>
-                <p3> ventas@matemania.com</p3>
-                <p4> Buenos Aires, Argentina</p4>
-            </div>
-        </div>
-    </footer>
-</body>
+      
+    </main>
+    <footer></footer>
 </html>
