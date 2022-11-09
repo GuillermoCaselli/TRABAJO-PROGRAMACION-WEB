@@ -16,7 +16,8 @@ main{
 h3{
 color: green;
 text-align: center;
-margin: 50px;
+margin-top: 50px;
+
 }
 
 .imagen{
@@ -33,4 +34,36 @@ margin: 50px;
   display: flex;
   justify-content: center;
 
+}
+
+#navbar{
+  position: sticky;
+  top: 0;
+  height: 15vh;
+  z-index: 99;
+}
+
+#carrito{
+  max-height: 30px;
+  max-width: 30px;
+  
+}
+
+#sticky{
+  position: sticky;
+}
+
+#whatsapp{
+  position:fixed;
+  bottom:2vw;
+  right:2vw;
+  max-width: 70px;
+  max-height: 70px;
+}
+
+@media only screen and (max-width: 600px){
+  .mate{
+    position:static
+
+  }
 }
